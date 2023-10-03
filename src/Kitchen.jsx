@@ -1,4 +1,5 @@
 import Oven from "./Oven"
+import Sink from "./Sink"
 
 const Kitchen = (props) => {
   return ( 
@@ -8,7 +9,7 @@ const Kitchen = (props) => {
         Kitchen
       </p>
       <Oven />
-      {/* <Sink /> */}
+      <Sink />
 
       </>
 
