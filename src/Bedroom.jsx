@@ -3,7 +3,7 @@ const Bedroom = (props) => {
     <div>
       <p>Bedroom  {props.bedNum}</p>
     </div>
-   );
+    )
 }
- 
-export default Bedroom;
+  
+export default Bedroom

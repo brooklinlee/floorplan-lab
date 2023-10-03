@@ -1,6 +1,7 @@
 import Kitchen from "./Kitchen"
 import LivingRoom from "./LivingRoom"
 import Bedroom from "./Bedroom"
+import Bath from "./Bath"
 
 
 const FloorPlan = (props) => {
@@ -19,8 +20,12 @@ const FloorPlan = (props) => {
     <Bedroom 
       bedNum={3}
     />
-    {/*<Bath />
-    <Bath /> */}
+    <Bath 
+      size={'Half Bath'}
+    />
+    <Bath 
+      size={'Full Bath'}
+    />
     
     </>
 
