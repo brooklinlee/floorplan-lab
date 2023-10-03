@@ -1,4 +1,6 @@
 import Kitchen from "./Kitchen"
+import LivingRoom from "./LivingRoom"
+import Bedroom from "./Bedroom"
 
 
 const FloorPlan = (props) => {
@@ -7,13 +9,19 @@ const FloorPlan = (props) => {
     <>
     
     <Kitchen />
-    {/* <LivingRoom />
-    <Bedroom />
-    <Bedroom />
-    <Bedroom />
-    <Bath />
-    <Bath />
-     */}
+    <LivingRoom />
+    <Bedroom 
+      bedNum={1}
+    />
+    <Bedroom 
+      bedNum={2}
+    />
+    <Bedroom 
+      bedNum={3}
+    />
+    {/*<Bath />
+    <Bath /> */}
+    
     </>
 
   )
